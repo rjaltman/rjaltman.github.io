@@ -6,7 +6,8 @@ body {
 #header {
     padding-top: 10px;
     height:10vw;
-    font-size:2vw;
+    font-size:1.6vw;
+    text-align: center;
 }
 
 #main {
@@ -24,17 +25,27 @@ body {
 .head-sl {
     height:2vw;
     padding-left:1vw;
-    font-size:2vw;
+    font-size:1.6vw;
     padding-right:1vw;
 
 }
 
 .head-n {
     font-weight:700;
+    color:#0070C0;
 }
 
 .head-a {
     text-decoration: none;
+    color:#444;
+    font-size:1.6vw;
+    font-weight: 300;
+    padding-right:1vw;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#0070C0;
 }
 
 .head-act {

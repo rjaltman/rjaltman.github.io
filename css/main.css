@@ -11,14 +11,18 @@ body {
 }
 
 #main {
-
+    text-align: center;
 }
 
 #main-img {
-
+    box-shadow: 2px 2px 2px #0070C0;
+    height:9vw;
+    width:9vw;
+    border-radius:9vw;
 }
 
 #foot {
+    background-color: rgb(220,220,220);
 
 }
 

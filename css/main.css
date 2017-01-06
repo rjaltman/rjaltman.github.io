@@ -2,3 +2,40 @@ body {
   font-family: 'Source Sans Pro',sans-serif;
   letter-spacing: 1.05px;
 }
+
+#header {
+    padding-top: 10px;
+    height:10vw;
+    font-size:2vw;
+}
+
+#main {
+
+}
+
+#main-img {
+
+}
+
+#foot {
+
+}
+
+.head-n {
+
+}
+
+.head-a {
+    text-decoration: none;
+}
+
+.head-act {
+    text-decoration: none;
+    color:#0070c0
+}
+
+.svc-logo {
+    height:0.7vw;
+    width:0.7vw;
+    border-radius:0.7vw;
+}

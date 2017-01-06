@@ -21,8 +21,16 @@ body {
 
 }
 
-.head-n {
+.head-sl {
+    height:2vw;
+    padding-left:1vw;
+    font-size:2vw;
+    padding-right:1vw;
 
+}
+
+.head-n {
+    font-weight:700;
 }
 
 .head-a {

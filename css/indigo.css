@@ -1,0 +1,41 @@
+/* Start of IndigoBox specific page styling */
+
+/* Office hours specific */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+#header {
+    font-weight: 400;
+    font-size:14px;
+}
+
+#oh {
+    left:0px;
+    right:0px;
+    width:100%;
+    position: relative;
+}
+
+#oh-times {
+
+}
+
+#head-l {
+    color: #7D14E6;
+    position: absolute;
+}
+
+.head-ll {
+    color:#333;
+}
+
+#head-r {
+    right: 5px;
+    text-align:right;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}

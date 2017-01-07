@@ -21,9 +21,14 @@ body {
     border-radius:9vw;
 }
 
-#foot {
+foot {
     background-color: rgb(220,220,220);
-
+    bottom:0px;
+    left:0px;
+    right:0px;
+    width:100%;
+    position: fixed;
+    
 }
 
 .head-sl {

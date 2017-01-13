@@ -1,0 +1,15 @@
+body {
+  font-family: 'Source Sans Pro',sans-serif;
+  letter-spacing: 1.05px;
+}
+
+#main {
+    text-align: center;
+}
+
+#main-img {
+    box-shadow: 2px 2px 2px #0070C0;
+    height:9vw;
+    width:9vw;
+    border-radius:9vw;
+}

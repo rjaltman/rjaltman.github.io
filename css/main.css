@@ -10,17 +10,6 @@ body {
     text-align: center;
 }
 
-#main {
-    text-align: center;
-}
-
-#main-img {
-    box-shadow: 2px 2px 2px #0070C0;
-    height:9vw;
-    width:9vw;
-    border-radius:9vw;
-}
-
 foot {
     /*background-color: rgb(230,230,230);*/
     bottom:0px;
@@ -39,14 +28,6 @@ foot {
   position: relative;
   padding-top:0px;
   padding-bottom:0px;
-}
-
-.foot-img {
-  width:40px;
-  height:40px;
-  padding-top:0px;
-  padding-bottom:0px;
-  border-radius: 40px;
 }
 
 .head-sl {
@@ -81,7 +62,7 @@ a:hover {
 }
 
 .svc-logo {
-    height:0.7vw;
-    width:0.7vw;
-    border-radius:0.7vw;
+    height:2.7vw;
+    width:2.7vw;
+    border-radius:2.7vw;
 }

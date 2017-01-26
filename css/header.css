@@ -2,6 +2,12 @@
 /* Right now, this might still be in workspace.css */
 /* I promise it will be okay, we'll get there */
 
+* {
+  padding:0;
+  border:0;
+  margin:0;
+}
+
 #top {
   /* Not to be confused with actual top */
   /* Or a top hat...because if you are going to go that route you have to pull off the entire look. */
@@ -21,12 +27,16 @@
 .navbar {
   flex-direction: row;
   display:flex;
+  top:0px;
+  align-items: center;
 }
 
 li {
   flex: 1;
-  max-width: 10vw;
+  max-width: 8vw;
   list-style:none;
+  text-decoration: none;
+  color:#fff;
 }
 
 .top-link {
@@ -34,20 +44,31 @@ li {
 }
 
 .top-n {
-  font-size:1.5vw;
+  font-size:1.2vw;
+}
+
+.top-selected {
+  border-bottom-width:thick;
+  border-bottom-color: #fff;
 }
 
 .img-hp {
   /* Not Hewlett-Packard, for those wondering */
   padding-right:1vw;
-  border-radius:1.7vw;
-  height:1.7vw;
-  width:1.7vw;
+  border-radius:1.4vw;
+  height:1.4vw;
+  width:1.4vw;
   text-align: left;
 }
 
 .top-btn {
 
+}
+
+.icon {
+  width:1vw;
+  height:1vw;
+  text-align: left;
 }
 
 .top-link {

@@ -1,0 +1,56 @@
+/* Start of header stylesheet */
+/* Right now, this might still be in workspace.css */
+/* I promise it will be okay, we'll get there */
+
+#top {
+  /* Not to be confused with actual top */
+  /* Or a top hat...because if you are going to go that route you have to pull off the entire look. */
+  top:0px;
+  left:0px;
+  right:0px;
+  height:2vw;
+  min-height: 40px;
+  position:fixed;
+  z-index:10; /* I'm sorry. */
+  font-family: 'Source Sans Pro','Segoe UI','Lucida Sans','Chicago',sans-serif; /* Would it be anything else?...actually the Chicago addition is new */
+  letter-spacing: 1.05px;
+  background-color: rgb(0,112,192);
+  color: #fff;
+}
+
+.navbar {
+  flex-direction: row;
+  display:flex;
+}
+
+li {
+  flex: 1;
+  max-width: 10vw;
+  list-style:none;
+}
+
+.top-link {
+  display: list-item;
+}
+
+.top-n {
+  font-size:1.5vw;
+}
+
+.img-hp {
+  /* Not Hewlett-Packard, for those wondering */
+  padding-right:1vw;
+  border-radius:1.7vw;
+  height:1.7vw;
+  width:1.7vw;
+  text-align: left;
+}
+
+.top-btn {
+
+}
+
+.top-link {
+  color:rgb(217,217,217);
+  text-decoration: none;
+}

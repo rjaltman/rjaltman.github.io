@@ -48,17 +48,28 @@ li {
 }
 
 .top-selected {
-  border-bottom-width:thick;
+  border-bottom-width:2px;
   border-bottom-color: #fff;
+  border-bottom-style: solid;
+}
+
+.item1 {
+  padding-left:20px;
+  padding-right:20px;
+  top:0px;
+  height:2vw;
+  align-items: center;
 }
 
 .img-hp {
   /* Not Hewlett-Packard, for those wondering */
-  padding-right:1vw;
+  /*padding-right:20px;
+  padding-left:20px;*/
   border-radius:1.4vw;
   height:1.4vw;
   width:1.4vw;
   text-align: left;
+  align-items: center;
 }
 
 .top-btn {

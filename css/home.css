@@ -7,6 +7,11 @@ body {
 #main {
     text-align: center;
     align-items: center;
+    padding:0.3vw;
+    width:70%;
+    left:15%;
+    right:0px;
+    position: relative;
 }
 
 #main-img {
@@ -28,4 +33,5 @@ h2 {
   font-weight:400;
   letter-spacing: 1.5px;
   color: #555;
+  font-size:1.5vw;
 }

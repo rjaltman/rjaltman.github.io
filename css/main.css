@@ -19,6 +19,7 @@ foot {
     position: fixed;
     padding-top:5px;
     padding-bottom:5px;
+    background-color:rgb(248,248,248);
 }
 
 #foot-r {
@@ -28,6 +29,19 @@ foot {
   position: relative;
   padding-top:0px;
   padding-bottom:0px;
+}
+
+#foot-content  {
+  width:70%;
+  left:15%;
+  right:0px;
+  position: relative;
+}
+
+.foot-img {
+  float: right;
+  position: relative;
+  z-index: 100;
 }
 
 .head-sl {
@@ -72,7 +86,8 @@ a:hover {
   color:#555;
   font-weight:300;
   font-size:18px;
-  padding: 5px;
+  padding-top:8px;
+  float:left;
 }
 
 .main-link {
@@ -93,4 +108,12 @@ a:hover {
 
 .illinois:hover {
   color: #FA6300;
+}
+
+.maroon {
+  color: #555;
+}
+
+.maroon:hover {
+  color: #d60000;
 }

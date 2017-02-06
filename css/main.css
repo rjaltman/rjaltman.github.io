@@ -6,7 +6,7 @@ body {
 #header {
     padding-top: 10px;
     height:10vw;
-    font-size:1.6vw;
+    font-size:24px;
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ foot {
 .head-sl {
     height:2vw;
     padding-left:1vw;
-    font-size:1.6vw;
+    font-size:24px;
     padding-right:1vw;
 
 }
@@ -46,7 +46,7 @@ foot {
 .head-a {
     text-decoration: none;
     color:#444;
-    font-size:1.6vw;
+    font-size:24px;
     font-weight: 300;
     padding-right:1vw;
 }
@@ -62,7 +62,35 @@ a:hover {
 }
 
 .svc-logo {
-    height:2.7vw;
-    width:2.7vw;
+    height:40px;
+    width:40px;
     border-radius:2.7vw;
+    margin-right:5px;
+}
+
+.footnote {
+  color:#555;
+  font-weight:300;
+  font-size:18px;
+  padding: 5px;
+}
+
+.main-link {
+  text-decoration: none;
+}
+
+.indigo {
+  color: #8a4aca;
+}
+
+.indigo:hover {
+  color: #7D14E6;
+}
+
+.illinois {
+  color: #f57b2b;
+}
+
+.illinois:hover {
+  color: #FA6300;
 }

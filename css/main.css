@@ -4,10 +4,19 @@ body {
 }
 
 #header {
-    padding-top: 10px;
-    height:10vw;
-    font-size:24px;
-    text-align: center;
+  padding-top: 10px; */
+  font-size: 24px;
+  background: #F8F8F8;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  padding-left: 1em;
+  padding-top: 0.3em;
 }
 
 foot {
@@ -42,6 +51,34 @@ foot {
   float: right;
   position: relative;
   z-index: 100;
+}
+
+#main a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  padding-left: 1em;
+  border-left: 2px solid;
+  letter-spacing: 0.05em;
+}
+
+#main .deepblue {
+  text-decoration: none;
+  color: #0832AA;
+  border-color: #0832AA;
+}
+
+#main .seablue {
+  color: #0883AA;
+  border-color: #0883AA;
+}
+
+#main .seagreen {
+  color: #08AA80;
+  border-color: #08AA80;
 }
 
 .head-sl {
@@ -116,4 +153,3 @@ a:hover {
 
 .maroon:hover {
   color: #d60000;
-}

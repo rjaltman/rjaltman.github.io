@@ -2,6 +2,7 @@ body {
   font-family: 'Source Sans Pro',sans-serif;
   letter-spacing: 1.05px;
   background-color: #FBFBFB;
+  overflow: hidden;
 }
 
 #main {

@@ -20,15 +20,16 @@ body {
 }
 
 foot {
-    /*background-color: rgb(230,230,230);*/
-    bottom:0px;
-    left:0px;
-    right:0px;
-    width:100%;
-    position: fixed;
-    padding-top:5px;
-    padding-bottom:5px;
-    background-color:rgb(248,248,248);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  position: fixed;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(248,248,248);
+  box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.16);
+  font-family: "Source Serif Pro", serif;
 }
 
 #foot-r {
@@ -41,16 +42,14 @@ foot {
 }
 
 #foot-content  {
-  width:70%;
-  left:15%;
-  right:0px;
-  position: relative;
+  display: flex;
 }
 
 .foot-img {
-  float: right;
-  position: relative;
   z-index: 100;
+  vertical-align: middle;
+  margin: auto auto;
+  margin-top: 4px;
 }
 
 #main a {
@@ -120,15 +119,18 @@ a:hover {
 }
 
 .footnote {
-  color:#555;
-  font-weight:300;
-  font-size:18px;
-  padding-top:8px;
-  float:left;
+  color: #555;
+  font-weight: 300;
+  font-size: 18px;
+  vertical-align: middle;
+  display: flex;
+  text-align: center;
+  width: 50%;
 }
 
 .main-link {
   text-decoration: none;
+  margin: auto auto;
 }
 
 .indigo {

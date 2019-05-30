@@ -19,10 +19,18 @@ body {
   height: 14em;
   width: 14em;
   border-radius: 20em;
-  text-align: left;
-  margin-top: 20em;
-  margin-left: -3em;
+  /* text-align: left; */
+  /* margin-top: 20em; */
+  /* margin-left: -3em; */
+  /* margin: auto auto; */
   border: 3px solid white;
+  vertical-align: middle;
+  display: block;
+  margin: auto 3em;
+  margin-right: 0em;
+  top: 0px;
+  bottom: 0px;
+  position: fixed;
 }
 
 #rhs {

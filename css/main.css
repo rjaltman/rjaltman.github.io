@@ -4,8 +4,6 @@ body {
 }
 
 #header {
-  padding-top: 10px; */
-  font-size: 24px;
   background: #F8F8F8;
   top: 0px;
   left: 0px;
@@ -15,8 +13,10 @@ body {
   position: fixed;
   z-index: 10;
   display: flex;
-  padding-left: 1em;
-  padding-top: 0.3em;
+  padding-left: 4em;
+  padding-top: 0.1em;
+  font-size: 1.2em;
+  padding-bottom: 0.1em;
 }
 
 foot {
@@ -81,24 +81,27 @@ foot {
 }
 
 .head-sl {
-    height:2vw;
-    padding-left:1vw;
-    font-size:24px;
-    padding-right:1vw;
-
+  height: 1.5em;
+  padding-left: 1vw;
+  font-size: 1.2em;
+  padding-right: 1vw;
+  margin: auto 0;
+  color: #c7c7c7;
+  font-weight: 100;
 }
 
 .head-n {
-    font-weight:700;
-    color:#0070C0;
+  font-weight: 700;
+  color: #0070C0;
+  margin: auto 0;
 }
 
 .head-a {
-    text-decoration: none;
-    color:#444;
-    font-size:24px;
-    font-weight: 300;
-    padding-right:1vw;
+  text-decoration: none;
+  color: #444;
+  padding-right: 1em;
+  margin: auto 0;
+  font-size: 0.9em;
 }
 
 a:hover {

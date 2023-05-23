@@ -52,9 +52,16 @@ foot {
   margin-top: 4px;
 }
 
-#main a {
-  display: block;
+a { 
   text-decoration: none;
+}
+
+a:hover { 
+  transition: 0.2s color ease-in-out;
+}
+
+#jump-if-below a {
+  display: block;
   font-size: 1.2em;
   margin-bottom: 1em;
   padding-bottom: 0.2em;
@@ -97,14 +104,13 @@ foot {
 }
 
 .head-a {
-  text-decoration: none;
   color: #444;
   padding-right: 1em;
   margin: auto 0;
   font-size: 0.9em;
 }
 
-a:hover {
+a:hover, a:focus {
     text-decoration: none;
     color:#0070C0;
 }
@@ -140,21 +146,26 @@ a:hover {
   color: #8a4aca;
 }
 
-.indigo:hover {
+.indigo:hover,.indigo:focus {
+  color: #7D14E6;
+}
+
+.indigo-nodef:hover {
   color: #7D14E6;
 }
 
 .illinois {
-  color: #f57b2b;
+  /* color: #ff5f05; That's barely AA-compliant - the orange of the University of Illinois logo strikes again! */
+  color: #bd4807; /* That's technically not the University orange, but come on. #ff5f05? */
 }
 
-.illinois:hover {
-  color: #FA6300;
+.illinois:hover, .illinois:focus {
+  color: #13294b; /* At least University of Illinois blue is much more manageable. I still don't like this transition, might consider just blue to blue */
 }
 
 .maroon {
   color: #555;
 }
 
-.maroon:hover {
+.maroon:hover, .maroon:focus {
   color: #d60000;
